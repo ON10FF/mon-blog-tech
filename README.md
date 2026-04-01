@@ -1,16 +1,29 @@
-# React + Vite
+# 🚀 MonBlog — Blog technique personnel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un blog technique minimaliste construit avec **React**, **Vite** et **Tailwind CSS**. Articles en Markdown, recherche en temps réel et filtrage par tags.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Fonctionnalités
 
-## React Compiler
+- 📝 Articles écrits en Markdown
+- 🔍 Recherche en temps réel par titre
+- 🏷️ Filtrage par tags
+- 📄 Page dédiée par article avec rendu Markdown
+- 🌙 Thème sombre (Catppuccin Mocha)
+- ⚡ Démarrage ultra-rapide grâce à Vite
+- 📱 Interface responsive
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Stack technique
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technologie | Rôle |
+|---|---|
+| [React 18](https://react.dev/) | UI & composants |
+| [Vite](https://vitejs.dev/) | Bundler & dev server |
+| [React Router v6](https://reactrouter.com/) | Navigation SPA |
+| [Tailwind CSS v3](https://tailwindcss.com/) | Styles utility-first |
+| [react-markdown](https://github.com/remarkjs/react-markdown) | Rendu Markdown |
+
+---
